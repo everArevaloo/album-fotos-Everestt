@@ -1,88 +1,109 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>FotoEver.Ig</title>
-  <link rel="stylesheet" href="estilo.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EVER-ESTT</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div class="container">
 
-    <header>
-      <div class="logo">EVERESTT <img src="fotosss/insta.png"></div>
-      <nav>
-        <a href="#about">Sobre mi</a>
-        <a href="#portfolio">Album</a>
-        <a href="#prices">Destacadas</a>
-        <a href="#contact">Contacto</a>
-      </nav>
-    </header>
-
-    <div class="Portada">
-      <div class="Portada-img"></div>
-      <div class="Portada-content">
-        <h1>Fotos randoms</h1>
-        <p>Pagina hecha por mi (Everestt)</p>
-        <button>Contacto</button>
-      </div>
+<header class="top-bar">
+    <nav>
+        <ul>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Sobre mí</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+    </nav>
+    <div class="social-icons">
+        <a href="#" aria-label="Facebook">F</a>
+        <a href="#" aria-label="Instagram">I</a>
+        <a href="#" aria-label="LinkedIn">L</a>
+        <a href="#" aria-label="Pinterest">P</a>
     </div>
+</header>
 
-    <section id="about">
-      <h2>Sobre mi</h2>
-      <div class="about">
-        <div class="acerca-foto"></div>
+<div class="logo-header">
+    <h1>EVER-ESTT</h1>
+</div>
+
+<header class="main-header">
+    <a href="https://www.instagram.com/ever_est.ss/?__pwa=1#"><div class="enlacee">
+    <img class="perfil" src="fotos-principal/fotomia.jpg">
+    <h2>Ir al perfil</h2>
+    </div></a>
+    <nav class="main-nav">
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Paisajes</a></li>
+            <li><a href="#">Animales</a></li>
+            <li><a href="#">Dibujos</a></li>
+            <li><a href="#">Libros</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main class="content">
+
+    <section class="about-me">
+        <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80" alt="Fotógrafo en la calle">
         <div class="about-text">
-          <p>Pues nada, cree esta aplicacion para subir fotos de cualquier vaina que vea.🙂</p>
+            <h3>SOBRE MÍ</h3>
+            <h2>Hola, soy Ever!</h2>
+            <p>Hice esta pagina web con el simple interes de publicar las cosas que logro fotografiar o compartir</p>
+            <p>La unica funcion de esto es ir mejorando en el back y front-end OsiOsi</p>
         </div>
-      </div>
     </section>
 
-    <section id="portfolio">
-      <h2>Fotasoss</h2>
-      <div class="portfolio-grid">
-        <div class="portfolio-item"> <span>Un gato</span></div>
-        <div class="portfolio-item"><!-- IMG --> <span>Mascota</span></div>
-        <div class="portfolio-item"><!-- IMG --> <span>Paisaje</span></div>
-        <div class="portfolio-item"><!-- IMG --> <span>Tarantula</span></div>
-      </div>
+
+</div>
+    <section class="what-i-do">
+        <h2>Lo que hago</h2>
+        <p class="what-i-do-description">Creo paginas web, programo, dibujo y soy critico de lo que no venga a la etica</p>
+
+        <div class="services">
+            <article class="service">
+                <img src="fotos-principal/dibu.jpeg" alt="Boda en la playa">
+                <h3>Dibujos</h3>
+                <p>Cualquier dibujo que haga en su mayoria son referencias, algunos nacen de ideas propias</p>
+                <button class="btn">Ver dibujos</button>
+            </article>
+
+            <article class="service">
+                <img src="fotos-principal/Book.jpeg" alt="Estilo de moda">
+                <h3>Libros</h3>
+                <p>Todo libro leido sera agregado aqui y por que razon lo agregue.</p>
+                <button class="btn">Ver libros</button>
+            </article>
+
+            <article class="service">
+                <img src="fotos-principal/mussicaa.jpeg" alt="Tecnología en escritorio">
+                <h3>Musica</h3>
+                <p>Las personas en su mayoria los define su gusto musical y aqui comparto a grupos y canciones relevantes a mi gusto.</p>
+                <button class="btn">Ver musica</button>
+            </article>
+        </div>
+
     </section>
 
-    <section id="prices">
-      <h2>Servicios web</h2>
-      <div class="prices-grid">
-        <div class="price-card">
-          <h3>Pagina para 100 publicaciones 200lps</h3>
-          <p>Tiempo de 7 meses</p>
-          <p>70 fotos - 30 videos</p>
-          <button>Comprar</button>
+    <section class="featured">
+        <p>He sido presentado en</p>
+        <div class="logos">
+            <span>QUARTZ</span>
+            <span>FAST COMPANY</span>
+            <span>Emprendedor</span>
+            <span>TechCrunch</span>
         </div>
-        <div class="price-card">
-          <h3>Standard - 150</h3>
-          <p>Tiempo de 7 meses</p>
-          <p>50 fotos - 20 videos</p>
-          <button>Comprar</button>
-        </div>
-        <div class="price-card">
-          <h3>Básico - 100$</h3>
-          <p>Tiempo de 7 meses</p>
-          <p>70 publicaciones</p>
-          <button>Comprar</button>
-        </div>
-      </div>
     </section>
 
-    <section class="testimonio">
-      <div class="testimonio-img"><!-- FOTO TESTIMONIO --></div>
-      <p>"Lo mejor que se pudo actualizar en instagram, es excelente"</p>
-      <strong>- Sofia</strong>
-    </section>
+</main>
 
-    <footer id="contact">
-      MK © 2025 — Contacto: +504 8843-3958
-    </footer>
+<footer>
+    <p>Everestt.io</p>
+</footer>
 
-  </div>
+<script src="script.js"></script>
 </body>
 </html>
 
